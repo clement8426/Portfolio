@@ -10,13 +10,9 @@ interface Project {
 }
 
 interface ProjectFilterProps {
-  setFiltered: React.Dispatch<
-    React.SetStateAction<Project[]>
-  >;
+  setFiltered: React.Dispatch<React.SetStateAction<Project[]>>;
   activeCategory: string;
-  setActiveCategory: React.Dispatch<
-    React.SetStateAction<string>
-  >;
+  setActiveCategory: React.Dispatch<React.SetStateAction<string>>;
   projects: Project[];
 }
 
@@ -41,23 +37,17 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({
     { key: "all", label: "All" },
     { key: "next", label: "Next.js" },
     { key: "react", label: "React" },
-    { key: "vanilla", label: "Vanilla" },
-    { key: "mongo", label: "MongoDB" },
+    { key: "rails", label: "Rails" },
     { key: "tailwind", label: "Tailwind" },
-    { key: "prisma", label: "Prisma" },
-    { key: "sql", label: "SQL" },
+    { key: "bootstrap", label: "Bootstrap" },
   ];
   return (
     <div className="flex gap-8 my-10 items-center flex-wrap justify-center">
       {categories.map((category) => (
         <button
           key={category.key}
-          className={`text-gray-500 
-        ${
-          activeCategory === category.key
-            ? "border-yellow-500 border-b-2"
-            : ""
-        }
+          className={`text-gray-500
+        ${activeCategory === category.key ? "border-yellow-500 border-b-2" : ""}
         `}
           onClick={() => setActiveCategory(category.key)}
         >

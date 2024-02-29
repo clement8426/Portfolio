@@ -6,27 +6,26 @@ const skills = [
   {
     iconPath: "/js.png",
     title: "JavaScript",
-    percentage: 95,
+    percentage: 80,
   },
   {
-    iconPath: "/mongo.png",
-    title: "MongoDB",
+    iconPath: "/rails.png",
+    title: "Rails",
     percentage: 90,
   },
   {
     iconPath: "/react.png",
     title: "React",
-    percentage: 100,
+    percentage: 50,
   },
-  { iconPath: "/git.png", title: "Git", percentage: 89 },
+  { iconPath: "/next.png", title: "NextJs", percentage: 40 },
+  { iconPath: "/bootstrap.png", title: "Bootstrap", percentage: 85 },
+  { iconPath: "/tailwind.png", title: "Tailwind", percentage: 50 },
 ];
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="w-full h-fit py-20 relative bg-gray-100"
-    >
+    <section id="skills" className="w-full h-fit py-20 relative bg-gray-100">
       <div className="flex justify-center">
         <span className="bg-yellow-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
           Skills
