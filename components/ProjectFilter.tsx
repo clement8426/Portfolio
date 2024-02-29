@@ -47,7 +47,7 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({
         <button
           key={category.key}
           className={`text-gray-500
-        ${activeCategory === category.key ? "border-yellow-500 border-b-2" : ""}
+        ${activeCategory === category.key ? "border-[#de3136] border-b-2" : ""}
         `}
           onClick={() => setActiveCategory(category.key)}
         >

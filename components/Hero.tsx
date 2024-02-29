@@ -11,23 +11,24 @@ const Hero = () => {
       <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
         <div className="flex flex-col justify-center text-white flex-1 max-md:order-2 max-md:text-center">
           <h2 className="font-bold md:text-4xl text-3xl mb-2">
-            I'm Clement BASTIEN a Full Stack
+            Hello I'm Clement BASTIEN a Full-Stack
           </h2>
-          <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-yellow-500 font-bold mb-5">
+          <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-[#de3136] font-bold mb-5">
             Developer
           </h1>
           <span className="md:w-3/4 mb-5">
-            I collaborate with various projects and entrepreneurs, providing
-            expertise in full-stack engineering. Need assistance with your
-            project?{" "}
+            Full-Stack Developer proficient in Ruby on Rails and JavaScript, a
+            graduate of the LE Wagon bootcamp, currently learning React and
+            Next.js, offering adaptability, perseverance, and a strong
+            motivation to contribute to innovative web development projects.{" "}
             <Link href={"#contact"}>
-              <span className="text-yellow-500 underline text-sm">
+              <span className="text-[#de3136] underline text-sm">
                 Contact Me &#8594;
               </span>
             </Link>
           </span>
 
-          <div className="flex gap-5 text-yellow-500 text-2xl max-md:justify-center">
+          <div className="flex gap-5 text-[#de3136] text-2xl max-md:justify-center">
             <Link href="https://www.linkedin.com/in/clement-bastien/">
               <FaLinkedin />
             </Link>
@@ -39,7 +40,7 @@ const Hero = () => {
 
         <div className="flex flex-1 justify-end max-md:order-1 max-md:mb-3">
           <Image
-            src={"/header3.png"}
+            src={"/header.png"}
             width={350}
             height={350}
             role="img"

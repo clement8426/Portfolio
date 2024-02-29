@@ -13,9 +13,7 @@ const ProgressBar = ({
   return (
     <div className="mb-10">
       <div className="flex items-center mb-2 gap-1">
-        <div className="font-medium text-gray-700">
-          {title}
-        </div>
+        <div className="font-medium text-gray-700">{title}</div>
         <Image
           src={iconPath}
           height={60}
@@ -36,7 +34,7 @@ const ProgressBar = ({
         <div className="flex flex-col">
           <div className="w-full bg-gray-300 rounded-full">
             <div
-              className="h-2 rounded-full bg-yellow-500"
+              className="h-2 rounded-full bg-[#de3136]"
               style={{ width: `${percentage}%` }}
             ></div>
           </div>

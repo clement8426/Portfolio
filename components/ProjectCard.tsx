@@ -29,7 +29,7 @@ const ProjectCard = ({
 
       {isHovered && (
         <a href={url} target="_blank">
-          <div className="bg-yellow-500/80 py-1 px-3 absolute w-full h-full top-0 flex justify-center items-center transition-opacity duration-500 opacity-100 group-hover:opacity-0">
+          <div className="bg-[#de3136]/80 py-1 px-3 absolute w-full h-full top-0 flex justify-center items-center transition-opacity duration-500 opacity-100 group-hover:opacity-0">
             <h3 className="text-center text-black text-2xl flex gap-1 items-center font-thin">
               Checkout Project
               <LiaExternalLinkAltSolid />

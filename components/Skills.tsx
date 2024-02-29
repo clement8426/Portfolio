@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <section id="skills" className="w-full h-fit py-20 relative bg-gray-100">
       <div className="flex justify-center">
-        <span className="bg-yellow-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
+        <span className="bg-[#de3136] px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
           Skills
         </span>
       </div>
