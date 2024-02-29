@@ -8,17 +8,15 @@ const ContactForm = () => {
   const form = useRef<HTMLFormElement | null>(null);
   const { pending } = useFormStatus();
 
-  const sendEmail = (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_zf4kqmo",
-        "template_gi9akxe",
+        "service_pp8y49t",
+        "template_kmcva4n",
         form.current!,
-        "E3Mxy6-_5s96rYNfR"
+        "5U9j_d8v6HPxp6sfZ"
       )
       .then((result) => {
         console.log(result.text);

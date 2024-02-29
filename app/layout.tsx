@@ -6,20 +6,11 @@ import Footer from "@/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: [
-    "100",
-    "200",
-    "300",
-    "400",
-    "500",
-    "600",
-    "700",
-    "800",
-  ],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "Antonio's Portfolio",
+  title: "Clement Bastien Portfolio",
   description: "Full Stack Developer Portfolio",
 };
 
