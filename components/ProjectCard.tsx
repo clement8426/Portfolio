@@ -25,6 +25,7 @@ const ProjectCard = ({
         alt={`${name} Image`}
         height={800}
         width={800}
+        className="object-cover h-full"
       />
 
       {isHovered && (
